@@ -12,7 +12,21 @@ function FrequentSection() {
           </p>
           <button className="frequent-button">See All FAQ's</button>
         </div>
-        <div className="frequent-rigth-side"></div>
+        <div className="frequent-rigth-side">
+          <div className="frequent-card-container">
+             <div className="frequent-card-one">
+              <div className="enroll-multiple">
+                <p>Can I enroll in multiple courses at once?</p>
+                <div className="close-button">X</div>
+              </div>
+              <p>Absolutely! You can enroll in multiple courses simultaneously and access them at your convenience.</p>
+              <div className="enroll-process">
+                <p>Enrollment Process for Different Courses</p>
+                <div className="right-arrow">-</div>
+              </div>
+             </div>
+          </div>
+        </div>
       </div>
     </section>
   );

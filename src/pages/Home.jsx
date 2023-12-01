@@ -5,6 +5,7 @@ import AboutSection from "../components/AboutSection";
 import Schedule from "../components/Schedule";
 import TourSection from "../components/TourSection";
 import CoursesSection from "../components/CoursesSection";
+import FrequentSection from "../components/FrequentSection";
 function Home() {
   return (
     <div>
@@ -14,6 +15,7 @@ function Home() {
       <Schedule />
       <TourSection />
       <CoursesSection />
+      <FrequentSection />
     </div>
   );
 }

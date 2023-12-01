@@ -14,16 +14,16 @@
   --border-color: #F1F1F3;
 }
 
-body {
+/* body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
   font-family: 'poppin', sans-serif;
-}
+} */
 
 .welcomePage {
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   justify-content: center;
   margin: 80px 0 0 0;
@@ -32,13 +32,16 @@ body {
 .welcome-container {
   background-image: url(./image/welcome.png);
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
   background-position: center;
   background-size: cover;
   display: flex;
   justify-content: center;
   align-content: center;
 }
+/* section{
+  margin-top: 6rem;
+} */
 .welcome{
   display: flex;
   justify-content: flex-end;
@@ -311,12 +314,11 @@ body {
 .courses-section{
   display: flex;
   justify-content: center;
-  height: 100vh;
-  width: 100%;
-  margin-top: -15rem;
+  margin-top: -17rem; /* Adjust as needed */
 }
 .courses-container{
   width: 75%;
+  margin: 0 auto;
 }
 .courses-container h1{
   color: var(--text-color-one);
@@ -423,5 +425,18 @@ border-radius: 10px;
 @media screen and (max-width: 768px) {
   .course-container{
     grid-template-columns: repeat(1, 1fr);
+    height: auto !important;
+    background-color: red;
   }
+}
+
+/* =======================frequent-question-section======================= */
+.frequent-question-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  /* top: 60rem; Adjust as needed */
 }

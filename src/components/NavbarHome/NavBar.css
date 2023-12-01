@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* Define CSS variables for background-color and color */
+:root {
+  --background-color: #FAFAFA;
+  --nav-background-color: #FAFAFA;
+  --navb-button-background: #33CCFF;
+  --text-color-one: #33CCFF;
+  --text-color-two: #AAD673;
+  --nav-link-color: #74768F;
+  --background-color-one: #D9D9D9;
+  --main-font-family: 'Poppins', sans-serif;
+  --main-font-lato: 'Lato', sans-serif;
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--main-font-family);
+  background-color: var(--background-color);
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  background-color: var(--nav-background-color-color);
+  box-shadow: 0px -2px 4px;
+  top: 0;
+  z-index: 1;
+  height: 80px;
+  background-color: var(--background-color);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 95%;
+}
+
+
+.title {
+  font-family: var(--main-font-lato);
+  letter-spacing: 1px;
+  color: var(--text-color-one);
+  font-size: 20px;
+}
+.title-span{
+  color: var(--text-color-two);
+}
+
+.menu-icon {
+  display: none;
+}
+
+.nav-elements ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 15px 0;
+}
+
+.nav-elements ul li:not(:last-child) {
+  margin-right: 60px;
+}
+
+.nav-elements ul a {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--nav-link-color);
+  text-decoration: none;
+  transition: .3s;
+}
+.nav-elements ul a:hover {
+  color: var(--text-color-one);
+}
+
+.nav-elements ul a.active {
+  color: var(--highlight-color);
+  font-weight: 500;
+  position: relative;
+}
+
+.nav-elements ul a.active::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--highlight-color);
+}
+.login-button{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+.signIn {
+  border: none;
+  padding: 16px 24px;
+  background-color: var(--navb-button-background);
+  border-radius: 8px;
+  color: #ffffff;
+}
+.signUp {
+  border: none;
+  padding: 16px 24px;
+  background: none;
+  border: solid 1px var(--navb-button-background);
+  border-radius: 8px;
+  color: var(--navb-button-background);
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 1200px) {
+
+  /* Adjust styles for screens up to 1200px wide (e.g., tablets) */
+  .nav-elements ul li:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+
+ 
+}
+
+@media (max-width: 780px) {
+
+  /* Adjust styles for screens up to 600px wide (e.g., most mobile phones) */
+  .menu-icon {
+    display: flex;
+    cursor: pointer;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-bottom: 10px;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 20% 70% 1fr;
+    width: 95%;
+  }
+
+
+  .nav-elements {
+    position: absolute;
+    right: 0;
+    top: 80px;
+    width: 0px;
+    height: calc(100vh - 60px);
+    transition: all 0.3s ease-in;
+    overflow: hidden;
+    background: var(--background-color-one);
+  }
+
+  .nav-elements.active {
+    width: 270px;
+  }
+
+  .nav-elements ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-elements ul li {
+    margin-right: unset;
+    padding: 15px 20px;
+    width: 100%;
+  }
+  .nav-elements ul li:hover {
+    background-color: var(--nav-background-color);
+  }
+}

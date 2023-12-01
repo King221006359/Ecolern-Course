@@ -1,0 +1,427 @@
+:root {
+  --background-color: #FAFAFA;
+  --nav-background-color: #FAFAFA;
+  --navb-button-background: #33CCFF;
+  --text-color-one: #33CCFF;
+  --text-color-two: #AAD673;
+  --text-color-three: #D9D9D9;
+  --nav-link-color: #74768F;
+  --background-color-one: #D9D9D9;
+  --background-color-two:#A83E3E;
+  --main-font-family: 'Poppins', sans-serif;
+  --main-font-lato: 'Lato', sans-serif;
+  --main-text-color: #ffffff;
+  --border-color: #F1F1F3;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: 'poppin', sans-serif;
+}
+
+.welcomePage {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  margin: 80px 0 0 0;
+}
+
+.welcome-container {
+  background-image: url(./image/welcome.png);
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.welcome{
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  background: rgba(2, 2, 2, 0.4);
+}
+.welcome-content{
+  width: 50%;
+  color: var( --main-text-color);
+}
+.welcome h1 {
+  text-align: left;
+  margin-top: 200px;
+  display: flex;
+  position: relative;
+  letter-spacing: 10px;
+  font-size: 50px;
+  font-weight: bold;
+}
+.welcome-button{
+  display: flex;
+  gap: 2rem;
+  padding: 20px 0;
+}
+.start-learning{
+  width: 200px;
+  height: 50px;
+  font-size: 14px;
+  background-color: var( --main-text-color);
+  border: none;
+  margin: 10px 0;
+  color: var( --text-color-one);
+  font-weight: bold;
+  cursor: pointer;
+}
+.watch-video{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:1rem;
+}
+.eclipse{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: var(--background-color);
+  border-radius: 50%;
+}
+.polygon{
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-left: 21px solid var(--background-color-two);
+  border-bottom: 10px solid transparent ;
+  margin:0 auto;
+}
+.watch-video p{
+  font-size: 14px;
+  color: var( --text-color-one);
+  font-weight: bold;
+}
+
+
+@media screen and (max-width: 390px) {
+  .welcome-container {
+    height: auto;
+  }
+  .welcome-content{
+    width: 100%;
+    height: auto;
+    padding: 0 20px;
+  }
+  .welcome-button{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+    padding: 20px 0;
+  }
+  .welcome h1 {
+    margin-top: 40%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .welcome-container {
+    height: auto;
+  }
+  .welcome-content{
+    width: 100%;
+    padding: 0 20px;
+    font-size: 20px;
+  }
+
+  .welcome h1 {
+    margin-top: 40%;
+  }
+}
+
+/* style for about section */
+.about-section{
+  display: flex;
+  justify-content: center;
+  background: var(--main-text-color);
+  width: 100%;
+  height: 130vh;
+}
+.about-section-container{
+  width: 75%;
+  display: grid;
+  grid-template-columns: 35% 1fr;
+  gap: 1rem;
+  padding-top: 50px;
+}
+.about-image img{
+  width: 100%;
+}
+.about-content{
+  padding: 0 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items:flex-start;
+  flex-direction: column;
+}
+.about-content h1, p{
+  padding: 30px 0;
+}
+.about-content h1{
+  color: var(--text-color-one);
+}
+.about-content h4{
+  color: var(--text-color-two);
+}
+.about-content p{
+  line-height: 2rem;
+  letter-spacing: 1px;
+  width: 85%;
+}
+
+.aboutButton{
+  border: none;
+  width: 200px;
+  height: 50px;
+  background: transparent;
+  border: 1px solid var(--text-color-three);
+  border-left: 10px solid var(--background-color-two);
+  transition: all 400ms ease-in;
+  outline: none;
+}
+.aboutButton:hover{
+  background-color: var(--background-color-two);
+  cursor: pointer;
+  transform: scale(12px);
+}
+
+@media screen and (max-width: 390px) {
+ 
+  .about-section{
+    height: 140vh;
+    background: transparent;
+  }
+  
+  .about-section-container{
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 10rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about-section-container{
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 12rem;
+  }
+  .about-section{
+    height: auto;
+  }
+}
+
+
+/* ===================schedule style================ */
+.schedule-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  top: -9rem;
+  z-index: 1;
+}
+.card-container{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  background-color: var( --nav-background-color);
+  gap: 1rem;
+  box-shadow: -1px -1px 4px;
+  padding: 20px; 
+}
+.card{
+  padding: 30px;
+}
+.card h4{
+  color: var(--text-color-one);
+  padding-top: 10px;
+}
+.card p{
+  font-size: 14px;
+}
+@media screen and (max-width: 390px) {
+  .card-container{
+    grid-template-columns: repeat(1,1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card-container{
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
+/* =======================tour section=================== */
+.tour-section{
+  background-image: url(./image/background.png);
+  width: 100%;
+  height: 160vh;
+  position: relative;
+  top: -19rem;
+  /* z-index: -1; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tour-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tour-content{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+}
+.tour-content h1{
+  text-align: center;
+  padding-top:10px;
+  font-size: 34px;
+}
+.tour-content p{
+ text-align: center;
+ font-size: 24px;
+}
+@media screen and (max-width: 390px) {
+  .tour-section{
+    background-size: cover;
+  }
+}
+@media screen and (max-width: 768px) {
+  .tour-section{
+    background-size: cover;
+    width: 100%;
+  }
+}
+
+
+/* =======================courses section=================== */
+.courses-section{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  margin-top: -15rem;
+}
+.courses-container{
+  width: 75%;
+}
+.courses-container h1{
+  color: var(--text-color-one);
+}
+.courses-header{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+}
+.courses-button{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 25px 0;
+}
+.coursebutton{
+  border:none;
+  width: 82px;
+  height: 35px;
+  border-radius: 7px;
+  color: var(--text-color-one);
+  background: var(--main-text-color);
+  cursor:pointer;
+}
+.course-container{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+.course-card-container{
+  background-color: var(--main-text-color);
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+}
+.course-card-content{
+  padding: 30px;
+}
+.course-duration{
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: 25% 25% 1fr;
+}
+.creator{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.course-creator{
+  margin-right: 10px;
+  font-weight: bold;
+}
+.time{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.course-time{
+  border: 1px solid var(--border-color);
+  width: 107px;
+  height: 37px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+.level{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.course-level{
+  border: 1px solid var(--border-color);
+  width: 107px;
+  height: 37px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+.course-title h2{
+  padding: 10px 0;
+  color: var(--text-color-one);
+}
+.course-description{
+  line-height:1.5rem;
+}
+.course-button{
+  margin: 20px 0;
+  width: 100%;
+  height: 50px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  background-color: var(--navb-button-background);
+  font-weight: bold;
+  color: var(--main-text-color);
+}
+
+@media screen and (max-width: 768px) {
+  .course-container{
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

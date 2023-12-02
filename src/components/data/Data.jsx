@@ -80,3 +80,61 @@ export const CourseData = [
     date: "Nov 03",
   },
 ];
+
+export const accordionData = [
+  {
+    title: "What kind of support can I expect from instructors?",
+    content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis sapiente
+    laborum cupiditate possimus labore, hic temporibus velit dicta earum
+    suscipit commodi eum enim atque at? Et perspiciatis dolore iure
+    voluptatem.`,
+  },
+  {
+    title:
+      "Are the courses self-paced or do they have specific start and end dates?",
+    content: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia veniam
+    reprehenderit nam assumenda voluptatem ut. Ipsum eius dicta, officiis
+    quaerat iure quos dolorum accusantium ducimus in illum vero commodi
+    pariatur? Impedit autem esse nostrum quasi, fugiat a aut error cumque
+    quidem maiores doloremque est numquam praesentium eos voluptatem amet!
+    Repudiandae, mollitia id reprehenderit a ab odit!`,
+  },
+  {
+    title: "Are there any prerequisites for the courses?",
+    content: `Sapiente expedita hic obcaecati, laboriosam similique omnis architecto ducimus magnam accusantium corrupti
+    quam sint dolore pariatur perspiciatis, necessitatibus rem vel dignissimos
+    dolor ut sequi minus iste? Quas?`,
+  },
+  {
+    title: "Can I download the course materials for offline access?",
+    content: `Sapiente expedita hic obcaecati, laboriosam similique omnis architecto ducimus magnam accusantium corrupti
+    quam sint dolore pariatur perspiciatis, necessitatibus rem vel dignissimos
+    dolor ut sequi minus iste? Quas?`,
+  },
+];
+export const OurSuccessData = [
+  {
+    id: 1,
+    title: "Successfully Trained",
+    content: "576",
+    bottom: "ENROLLED LEARNERS",
+  },
+  {
+    id: 2,
+    title: "Available Courses",
+    content: "221",
+    bottom: "WIDE A WARDS",
+  },
+  {
+    id: 3,
+    title: "Scheduled Events",
+    content: "321",
+    bottom: "SUCCESS EVENTS",
+  },
+  {
+    id: 4,
+    title: "Getting Featured On",
+    content: "411",
+    bottom: "ONLINE COURSES",
+  },
+];

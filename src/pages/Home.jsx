@@ -6,6 +6,7 @@ import Schedule from "../components/Schedule";
 import TourSection from "../components/TourSection";
 import CoursesSection from "../components/CoursesSection";
 import FrequentSection from "../components/FrequentSection";
+import OurSuccess from "../components/OurSuccess";
 function Home() {
   return (
     <div>
@@ -16,6 +17,7 @@ function Home() {
       <TourSection />
       <CoursesSection />
       <FrequentSection />
+      <OurSuccess />
     </div>
   );
 }

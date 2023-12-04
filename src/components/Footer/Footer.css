@@ -1,0 +1,21 @@
+:root{
+    --navb-button-background: #33CCFF;
+    --nav-link-color: #9f9fa6;
+}
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    border-top: .5px solid var(--nav-link-color);
+}
+.footer-content{
+    padding: 20px 0;
+}
+.footer-content p{
+    text-align: center;
+    padding: 0;
+}
+.footer-span{
+    color: var(--navb-button-background);
+}

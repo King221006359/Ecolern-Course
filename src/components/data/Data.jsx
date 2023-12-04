@@ -6,6 +6,7 @@ import course1 from "../../image/course1.png";
 import course2 from "../../image/course2.png";
 import course3 from "../../image/course3.png";
 import course4 from "../../image/course4.png";
+import slide from "../../image/slide.png";
 
 export const ScheduleData = [
   {
@@ -78,6 +79,15 @@ export const CourseData = [
       "For Dive into the world of mobile app development. Learn to build native iOS and Android applications using industry-leading frameworks like Swift and Kotlin.",
     author: "Uwase",
     date: "Nov 03",
+  },
+];
+export const SliderData = [
+  {
+    id: 1,
+    title: "Bulkin Simons",
+    image: slide,
+    content:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do eiusmod.",
   },
 ];
 

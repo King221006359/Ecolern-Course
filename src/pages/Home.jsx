@@ -7,6 +7,9 @@ import TourSection from "../components/TourSection";
 import CoursesSection from "../components/CoursesSection";
 import FrequentSection from "../components/FrequentSection";
 import OurSuccess from "../components/OurSuccess";
+import SliderSection from "../components/slider/Slider";
+import Footer from "../components/Footer/Footer";
+
 function Home() {
   return (
     <div>
@@ -18,6 +21,8 @@ function Home() {
       <CoursesSection />
       <FrequentSection />
       <OurSuccess />
+      <SliderSection />
+      <Footer />
     </div>
   );
 }

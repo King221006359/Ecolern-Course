@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function CourseCard(props) {
   return (
@@ -26,7 +27,7 @@ function CourseCard(props) {
           <h2>{props.title}</h2>
         </div>
         <div className="course-description">{props.description}</div>
-        <button className="course-button">Get it Now</button>
+        <Link to="/CourseInfos"><button className="course-button">Get it Now</button></Link>
       </div>
     </div>
   );

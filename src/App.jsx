@@ -5,21 +5,17 @@ import {
   
 } from "react-router-dom";
 
-import Home from "./pages/Home";
+// import Home from "./pages/Home";
 import "./App.css";
 
-const isAuthenticated = () => {
-  const token = localStorage.getItem("token");
-  return !!token;
-};
-
-const userRole = "user"; // Set the user's role (you can fetch this from the API response)
+import Courses from "./pages/CoursePage"
 
 function App() {
   return (
     <Router>
       <div className="App">
-        <Home />
+        {/* <Home /> */}
+        <Courses />
       </div>
     </Router>
   );

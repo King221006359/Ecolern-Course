@@ -6,6 +6,7 @@ import course1 from "../../image/course1.png";
 import course2 from "../../image/course2.png";
 import course3 from "../../image/course3.png";
 import course4 from "../../image/course4.png";
+import slide from "../../image/slide.png";
 
 export const ScheduleData = [
   {
@@ -78,5 +79,72 @@ export const CourseData = [
       "For Dive into the world of mobile app development. Learn to build native iOS and Android applications using industry-leading frameworks like Swift and Kotlin.",
     author: "Uwase",
     date: "Nov 03",
+  },
+];
+export const SliderData = [
+  {
+    id: 1,
+    title: "Bulkin Simons",
+    image: slide,
+    content:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do eiusmod.",
+  },
+];
+
+export const accordionData = [
+  {
+    title: "What kind of support can I expect from instructors?",
+    content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis sapiente
+    laborum cupiditate possimus labore, hic temporibus velit dicta earum
+    suscipit commodi eum enim atque at? Et perspiciatis dolore iure
+    voluptatem.`,
+  },
+  {
+    title:
+      "Are the courses self-paced or do they have specific start and end dates?",
+    content: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia veniam
+    reprehenderit nam assumenda voluptatem ut. Ipsum eius dicta, officiis
+    quaerat iure quos dolorum accusantium ducimus in illum vero commodi
+    pariatur? Impedit autem esse nostrum quasi, fugiat a aut error cumque
+    quidem maiores doloremque est numquam praesentium eos voluptatem amet!
+    Repudiandae, mollitia id reprehenderit a ab odit!`,
+  },
+  {
+    title: "Are there any prerequisites for the courses?",
+    content: `Sapiente expedita hic obcaecati, laboriosam similique omnis architecto ducimus magnam accusantium corrupti
+    quam sint dolore pariatur perspiciatis, necessitatibus rem vel dignissimos
+    dolor ut sequi minus iste? Quas?`,
+  },
+  {
+    title: "Can I download the course materials for offline access?",
+    content: `Sapiente expedita hic obcaecati, laboriosam similique omnis architecto ducimus magnam accusantium corrupti
+    quam sint dolore pariatur perspiciatis, necessitatibus rem vel dignissimos
+    dolor ut sequi minus iste? Quas?`,
+  },
+];
+export const OurSuccessData = [
+  {
+    id: 1,
+    title: "Successfully Trained",
+    content: "576",
+    bottom: "ENROLLED LEARNERS",
+  },
+  {
+    id: 2,
+    title: "Available Courses",
+    content: "221",
+    bottom: "WIDE A WARDS",
+  },
+  {
+    id: 3,
+    title: "Scheduled Events",
+    content: "321",
+    bottom: "SUCCESS EVENTS",
+  },
+  {
+    id: 4,
+    title: "Getting Featured On",
+    content: "411",
+    bottom: "ONLINE COURSES",
   },
 ];

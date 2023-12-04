@@ -1,0 +1,70 @@
+:root{
+    --navb-button-background: #33CCFF;
+}
+.slider-section{
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0;
+}
+.slider-container{
+    width: 75%;
+}
+.slider-container h1{
+    padding: 0 15px;
+}
+.slider-card-container{
+    gap: 2rem;
+    margin: 40px 0;
+}
+.slider-card-content{
+    padding: 20px;
+    background: var(--main-text-color);
+    /* margin-right: 40px; */
+    border-radius: 8px;
+}
+.slider-card-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+.slider-content p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0;
+}
+.slick-slide>div{
+    margin: 0 10px;
+}
+.slick-prev:before {
+    content: '←';
+}
+.slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: var(--navb-button-background);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots li button:before {
+    color: var(--navb-button-background);
+}
+
+@media screen and (max-width:768px){
+    .slick-list {
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+    }
+}

@@ -11,7 +11,7 @@ import Courseinfos from "../components/Courseinfos-page/Courseinfos"
 
 function CourseInfos() {
   return (
-    <div>
+    <div className="content">
       <NavBar />
       <CourseWelcome />
       <div className="course-card-container">

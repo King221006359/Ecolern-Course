@@ -7,7 +7,7 @@ import { FcClock } from "react-icons/fc";
 import { FcRefresh } from "react-icons/fc";
 // import Menusdown from '../component/Menusdown';
 
-export function Courseinfos () {
+export function Curriculum () {
   return (
     <>
     
@@ -135,4 +135,4 @@ export function Courseinfos () {
   )
 }
 
-export default Courseinfos;
+export default Curriculum;

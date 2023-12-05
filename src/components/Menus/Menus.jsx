@@ -15,10 +15,10 @@ const Menus = () => {
   return (
     <>
       <header>
-        <nav className="Menus">
+        <nav className="menus">
           <div className="container">
 
-            <div className={`nav-elements ${showNavbar && "active"}`}>
+            <div className={`menus-elements ${showNavbar && "active"}`}>
               <ul>
                 <li>
                   <Link to="/CourseInfos">Course infos</Link>

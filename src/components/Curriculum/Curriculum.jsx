@@ -1,5 +1,5 @@
 import './Curriculum.css'
-// import Logo from '../image/course2.jpeg';
+import cours2 from "/src/assets/cours2.jpg"
 import { FcAddColumn } from "react-icons/fc";
 import { MdDone } from "react-icons/md";
 import { FcBarChart } from "react-icons/fc";
@@ -17,7 +17,7 @@ export function Curriculum () {
       <div className="container-infos">
      <section className='about'>
         <div className='about-image'>
-            <div className='about'>
+            <div className='about-us'>
             <h2><strong>About us</strong></h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                 Debitis, eius repellat amet ipsa fugit nihil modi accusamus impedit. 
@@ -28,9 +28,9 @@ export function Curriculum () {
             </p>
             <button className='showmore'><i><FcAddColumn /></i>&nbsp;&nbsp;Show More</button>
             </div><br /><br />
-            *
+            
 </div>
-*
+
 
 
  
@@ -40,7 +40,7 @@ export function Curriculum () {
             <h2></h2>
         
             <div className='image'>
-           {/* <img src ={Logo} alt='' className='img' /><br /><br /> */}
+           <img src ={cours2} alt='' className='img' /><br /><br />
            <button className='start'>Start learning</button>
            <br/><br />
            <div className='second'>

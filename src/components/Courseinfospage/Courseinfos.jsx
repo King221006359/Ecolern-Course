@@ -1,5 +1,5 @@
 import './infos.css'
-// import Logo from './image/cours3.jpg';
+import cours2 from "/src/assets/cours2.jpg"
 import { FcAddColumn } from "react-icons/fc";
 import { MdDone } from "react-icons/md";
 import { FcBarChart } from "react-icons/fc";
@@ -57,12 +57,12 @@ export function Courseinfos () {
         <div className='instructor'>
         <div className='left-sd'>
     
-    {/* <img src = {Logo} className='loginstructor' /> */}
+    <img src = {cours2} className='logo' />
     
     
     </div>
     <div className='right-sd'>
-        <h5 className='custom-para'>React Themes</h5>
+        <h5 className='custom-para'>React Themes</h5><br />
         <a className='reply-text' href='#' ><i className='Fas-fa-reply' /></a>
         <p className='para'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. eque.</p>
         
@@ -83,7 +83,7 @@ export function Courseinfos () {
             <h2></h2>
         
             <div className='image'>
-           {/* <img src ={Logo} className='img' /><br /><br /> */}
+           <img src ={cours2} className='img' /><br /><br />
            <button className='start'>Start learning</button>
            <br/><br />
            <div className='second'>

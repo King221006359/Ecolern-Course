@@ -15,7 +15,7 @@ const Menus = () => {
   return (
     <>
       <header>
-        <nav className="menus">
+        <nav className="Navbar">
           <div className="container">
 
             <div className={`menus-elements ${showNavbar && "active"}`}>

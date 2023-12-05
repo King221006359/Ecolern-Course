@@ -3,7 +3,7 @@
 import NavBar from "../components/NavbarHome/NavBar";
 import CourseWelcome from "../components/courses/CourseWelcome"
 import Menus from "../components/Menus/Menus"
-import Courseinfos from "../components/Courseinfos-page/Courseinfos"
+import Courseinfos from "../components/Courseinfospage/Courseinfos"
 import Footer from '../components/Footer/Footer';
 
 
@@ -17,7 +17,7 @@ function CourseInfos() {
       <div className="course-card-container">
        
       </div>
-      <Menus /><br />
+      <Menus /><br /><br />
       <Courseinfos /><br /><br />
       <Footer />
 

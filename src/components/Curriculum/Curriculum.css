@@ -4,15 +4,17 @@
     display: flex;
     justify-content: center;
     /* background-color: #2D3436; */
+
 }
 
 
 
 
 .about{
-    margin-top:10%;
+    margin-top:-4%;
     margin-left: 2%;
     width:75%;
+    background-color: white;
   }
   .about p{
     color: #2D3436;
@@ -289,7 +291,7 @@
   
   
   
-  
+ 
   
   
   

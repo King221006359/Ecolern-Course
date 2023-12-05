@@ -17,11 +17,11 @@ export function Courseinfos () {
       <div className="container-infos">
      <section className='about'>
         <div className='about-image'>
-            <div className='about'>
+            <div className='about-us'>
             <h2><strong>About us</strong></h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                 Debitis, eius repellat amet ipsa fugit nihil modi accusamus impedit. 
-                Similique veniam hic a dolores ab impedit, culpa ipsum cum facere expedita?
+             *   Similique veniam hic a dolores ab impedit, culpa ipsum cum facere expedita?
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                 Debitis, eius repellat amet ipsa fugit nihil modi accusamus impedit. 
                 Similique veniam hic a dolores ab impedit, culpa ipsum cum facere expedita?

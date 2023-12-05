@@ -1,5 +1,5 @@
-import './infos.css'
-// import Logo from './image/cours3.jpg';
+import './Curriculum.css'
+// import Logo from '../image/course2.jpeg';
 import { FcAddColumn } from "react-icons/fc";
 import { MdDone } from "react-icons/md";
 import { FcBarChart } from "react-icons/fc";
@@ -28,62 +28,19 @@ export function Curriculum () {
             </p>
             <button className='showmore'><i><FcAddColumn /></i>&nbsp;&nbsp;Show More</button>
             </div><br /><br />
-             <div className='whatu'>
-            <h2><strong>What you will learn</strong></h2><br />
-        <p1><i><MdDone className='icon'/></i>Skills Update</p1>&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;
-        <p1><i><MdDone className='icon'/></i>Self Update</p1><br />
-        <br />
-        <p1><i><MdDone className='icon'/></i>prepared Yourself</p1>
-        &nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;
-        &nbsp;
-        <p1><i><MdDone className='icon'/></i>Learn New Things</p1>
-        </div> 
-        
-
-        <br />
-        <h4><strong>About the instructor</strong></h4><br /><br />
-        <div className='instructor'>
-        <div className='left-sd'>
-    
-    {/* <img src = {Logo} className='loginstructor' /> */}
-    
-    
-    </div>
-    <div className='right-sd'>
-        <h5 className='custom-para'>React Themes</h5>
-        <a className='reply-text' href='#' ><i className='Fas-fa-reply' /></a>
-        <p className='para'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. eque.</p>
-        
-        </div>
-
+            *
 </div>
-
+*
 
 
  
-
-
-        </div>
-        
  
             
         <div className="about-content">
             <h2></h2>
         
             <div className='image'>
-           {/* <img src ={Logo} className='img' /><br /><br /> */}
+           {/* <img src ={Logo} alt='' className='img' /><br /><br /> */}
            <button className='start'>Start learning</button>
            <br/><br />
            <div className='second'>

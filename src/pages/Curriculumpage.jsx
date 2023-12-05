@@ -3,13 +3,13 @@
 import NavBar from "../components/NavbarHome/NavBar";
 import CourseWelcome from "../components/courses/CourseWelcome"
 import Menus from "../components/Menus/Menus"
-import Courseinfos from "../components/Courseinfos-page/Courseinfos"
+import Curriculum from "../components/Curriculum/Curriculum"
 import Footer from '../components/Footer/Footer';
 
 
 
 
-function CourseInfos() {
+function Curriculumpage() {
   return (
     <div className="content">
       <NavBar />
@@ -18,7 +18,7 @@ function CourseInfos() {
        
       </div>
       <Menus /><br />
-      <Courseinfos /><br /><br />
+      <Curriculum /><br /><br />
       <Footer />
 
 
@@ -26,5 +26,5 @@ function CourseInfos() {
   );
 }
 
-export default CourseInfos;
+export default Curriculumpage;
 

@@ -27,7 +27,7 @@ const Menus = () => {
                   <Link to="/Curriculumpage">Curriculum</Link>
                 </li>
                 <li>
-                  <Link to="/Review">Review</Link>
+                  <Link to="/Reviewspage">Reviews</Link>
                 </li>
                 
               </ul>

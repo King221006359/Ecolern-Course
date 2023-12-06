@@ -77,7 +77,7 @@ export function Courseinfos () {
 
         </div>
         
- 
+ <br />
             
         <div className="about-content">
             <h2></h2>

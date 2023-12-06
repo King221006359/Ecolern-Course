@@ -285,8 +285,20 @@ p1{
           flex-direction: column;
       }
       .about-image{
-          margin-right: 0px;
+          margin-right: 40px;
           margin-bottom:20px;
+      }
+      .about-us{
+        margin-right:30%;
+      }
+      .whatu{
+        margin-right:90%;
+        display: block;
+        /* display: flex; */
+        /* align-items: center; */
+      }
+      .instructor{
+        margin-right: 50%;
       }
       
   }

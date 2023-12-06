@@ -7,6 +7,7 @@ import "./App.css";
 import CoursePage from "./pages/CoursePage"
 import CourseInfos from "./pages/CourseInfos";
 import Curriculumpage from "./pages/Curriculumpage";
+import Reviewspage from "./pages/Reviewspage";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/courses" element={<CoursePage />} />
           <Route path="/CourseInfos" element={<CourseInfos />} />
           <Route path="/Curriculumpage" element={<Curriculumpage />} />
+          <Route path="/Reviewspage" element={<Reviewspage />} />
         </Routes>
       </div>
     </Router>

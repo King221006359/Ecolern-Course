@@ -53,6 +53,17 @@
   /* border:0.5px solid #484e50; */
   /* background-color: #27363b; */
 }
+.left-side{
+  /* background-color:rgb(173, 42, 42); */
+  width:10%;
+  height:90px;
+  border-radius:8em;
+}
+.logo-infos{
+  /* width:10em;
+  height:10em; */
+  border-radius:20%;
+}
 .loginstructor h{
   margin:0;
   /* margin-top:0%;  */
@@ -69,7 +80,7 @@
 } */
 .logo{
   width:30%;
-  height: 40vh;
+  height: 60vh;
   border-radius: 80%;
   margin-top: 0em;
 }
@@ -94,7 +105,7 @@
 .right-sd .para{
   margin:-10%;
   margin-left:0%;
-}
+/* }
 .leftsd{
   width:15%;
   height:50px;
@@ -103,7 +114,7 @@
   /* background-color:#33CCFF; */
   margin-bottom:5%;
   /* background-color: rgb(145, 169, 179); */
-}
+} */
 h4{
 
   margin: auto;
@@ -111,9 +122,9 @@ h4{
 .right-sd{
   width:80%;
   height:100px;
-  background-color: white;
+  background-color: rgb(68, 31, 31);
   /* margin: auto; */
-  gap:0px;
+  gap:-3px;
   /* margin-right: 10%; */
 }
 
@@ -230,10 +241,10 @@ p1{
   max-width: 100%;
   height:auto;
   display:block;
-  transition:0.5s ease;
+  /* transition:0.5s ease; */
 }
 .about-image:hover img{
-  transform: scale(1.2);
+  /* transform: scale(1.2); */
 
 } 
 .about-content{
@@ -255,7 +266,7 @@ p1{
       text-decoration: none;
       /* overflow: hidden; */
       /* margin-top:-10px; */
-      transition:0.3s;
+      /* transition:0.3s; */
       
   }
 

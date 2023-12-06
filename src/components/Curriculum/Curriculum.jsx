@@ -18,15 +18,42 @@ export function Curriculum () {
      <section className='about'>
         <div className='about-image'>
             <div className='about-us'>
-            <h2><strong>About us</strong></h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                Debitis, eius repellat amet ipsa fugit nihil modi accusamus impedit. 
-                Similique veniam hic a dolores ab impedit, culpa ipsum cum facere expedita?
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                Debitis, eius repellat amet ipsa fugit nihil modi accusamus impedit. 
-                Similique veniam hic a dolores ab impedit, culpa ipsum cum facere expedita?
-            </p>
-            <button className='showmore'><i><FcAddColumn /></i>&nbsp;&nbsp;Show More</button>
+            <h3><strong>Course Curriculum</strong></h3>
+            <div className="Table-1">
+              <table>
+              <tr>
+                <td>Programming Basics    <i><FcAddColumn /></i></td>
+              </tr>
+              <tr>
+                <td><i><FcAddColumn /></i> Programming Basics       00:30:20 <i><FcAddColumn /></i> </td>
+              </tr>
+              <tr>
+                <td><i><FcAddColumn /></i> Programming Basics       00:30:20 <i><FcAddColumn /></i></td>
+              </tr>
+              <tr>
+                <td><i><FcAddColumn /></i> Programming Basics       00:30:20 <i><FcAddColumn /></i></td>
+              </tr>
+
+              </table>
+            </div><br /><br />
+            <div className="Table-1">
+              <table>
+              <tr>
+                <td>Programming Basics    <i><FcAddColumn /></i></td>
+              </tr>
+              <tr>
+                <td><i><FcAddColumn /></i> Programming Basics       00:30:20 <i><FcAddColumn /></i> </td>
+              </tr>
+              <tr>
+                <td><i><FcAddColumn /></i> Programming Basics       00:30:20 <i><FcAddColumn /></i></td>
+              </tr>
+              <tr>
+                <td><i><FcAddColumn /></i> Programming Basics       00:30:20 <i><FcAddColumn /></i></td>
+              </tr>
+
+              </table>
+            </div>
+            {/* <button className='showmore'><i><FcAddColumn /></i>&nbsp;&nbsp;Show More</button> */}
             </div><br /><br />
             
 </div>

@@ -25,7 +25,7 @@ function CoursePage() {
   return (
     <div>
       <NavBar />
-      <CourseWelcome />
+      <CourseWelcome /><br /><br />
       <div className="course-card-container">
       <div className="course-container">{CourseData.map(Courses)}</div>
       </div>

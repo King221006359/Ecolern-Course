@@ -55,9 +55,9 @@ export function Courseinfos () {
         <br />
         <h4><strong>About the instructor</strong></h4><br /><br />
         <div className='instructor'>
-        <div className='left-sd'>
+        <div className='left-side'>
     
-    <img src = {cours2} className='logo' />
+    <img src = {cours2} className='logo-infos' />
     
     
     </div>
